@@ -20,14 +20,13 @@ body {
   
   .emoji a {
     display: flex;
-    justify-content: flex-start;
     width: 100%;
-    align-self: center;
     text-decoration: none;
     background-color: #781BAA;
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    margin-top: auto;
   }
   
   .icon {
@@ -40,13 +39,8 @@ body {
 
   .emojis {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 300px 350px; 
     grid-template-columns: 400px 400px;
     gap: 20px;
     border: solid black 1px round;
   }
-
-p {
-    margin: 0;
-}
